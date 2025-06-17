@@ -1,0 +1,67 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    /* Evita que se repita */
+    background-position: right top;
+    /* Alinea la imagen a la derecha */
+
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    color:brown;
+}
+
+#inicio {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#inicio p {
+    font-size: 0.8em;
+}
+
+select {
+    width: 3em;
+}
+
+button {
+    margin: 0 4px;
+    padding: 5px 10px;
+    border: 0.5px red inset;
+    border-radius: 5%;
+    background-color: ghostwhite;
+    cursor: pointer;
+}
+
+#palabras,
+#respuesta,
+#resultado {
+    text-align: center;
+}
+
+#palabras span {
+    display: inline-block;
+    font-size: 2em;
+    margin: 5px;
+    padding: 1px 5px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#respuesta input {
+    font-size: 2em;
+    width: 2em;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#imagenResultado {
+    width: 25%;
+}

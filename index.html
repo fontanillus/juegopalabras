@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memoria Visual</title>
+  <link rel="shortcut icon" href="img/abc.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+  <h1>Juego de Memoria Visual con Palabras</h1>
+  <div id="inicio">
+    <p>Entrena tu memoria visual con este juego. Aparecerá un tablero con 5 a 9 palabras, que permanecerá en pantalla
+      unos segundos. Al desaparecer, deberás escribir las palabras en el mismo orden en el cual las has visto y
+      presionar el botón <code>Comprobar</code>. Una vez comprobado, presionar <code>Reiniciar.</code></p>
+    <p>
+      <label>¿Con cuántas palabras quieres jugar?</label>
+      <select id="cantPalabras">
+        <option value="5" selected>5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+      <button type="button" id="jugar" onclick="crearSecuencia()">Comenzar</button>
+      <button type="button" disabled id="comprobar" onclick="comprobar()">Comprobar</button>
+      <button type="button" id="reiniciar" onclick="nuevoJuego()">Reiniciar</button>
+    </p>
+  </div>
+
+  <div id="palabras">
+
+  </div>
+  <hr>
+  <div id="respuesta">
+
+  </div>
+  <div>
+    <p id="resultado"></p>
+   <img id="imagenResultado" style="display: none;" alt="Resultado">
+  </div>
+
+  <script src="./js/palabras.js"></script>
+
+
+</body>
+
+</html>
