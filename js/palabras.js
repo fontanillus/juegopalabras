@@ -4,7 +4,7 @@ const secuencia = [];
 let cantidad;
 
 // Lista de palabras posibles
-const listaPalabras = ["escenario", "luces", "astros", "oceano", "flores", "cielo", "amor", "rosa", "hielo", "campo", "bosque", "desierto", "refresco", "alegría", "verano", "rojo", "enamorada", "HTML", "JavaScrip", "CSS", "position", "musical"];
+const listaPalabras = ["escenario", "luces", "astros", "océano", "flores", "cielo", "amor", "rosa", "hielo", "campo", "bosque", "desierto", "refresco", "alegría", "verano", "rojo", "enamorada", "HTML", "JavaScrip", "CSS", "position", "musical"];
 
 function crearSecuencia() {
     PALABRAS.innerHTML = '';
